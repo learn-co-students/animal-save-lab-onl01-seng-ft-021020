@@ -20,3 +20,12 @@ html {
 
 /* Write your solution here */
 
+@media only screen and (max-width: 1090px) {
+  #dolphin { top: 50px; }
+  #dolphin { transform: rotateZ(-50deg); }
+}
+
+@media only screen and (max-width: 642px) {
+  #dolphin { top: 400px; }
+  #dolphin { transform: rotateZ(-130deg); }
+}
